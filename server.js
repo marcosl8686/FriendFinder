@@ -5,7 +5,7 @@ var bodyParser = require("body-parser");
 var app = express();
 
 
-var PORT = process.env.port || 3000;
+var PORT = process.env.PORT || 3000;
 
 // BodyParser makes it possible for our server to interpret data sent to it.
 // The code below is pretty standard.
